@@ -1,0 +1,131 @@
+Browser: Edge
+
+String: 	$1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	297 milliseconds
+______________________________________________________
+
+String: 	$ 1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	172 milliseconds
+______________________________________________________
+
+String: 	1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	171 milliseconds
+______________________________________________________
+
+String: 	1654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	156 milliseconds
+______________________________________________________
+
+String: 	$1,654.56
+Annual Payment: 19854,72
+Result: 	WRONG [should be: 19854.60]
+Response time: 	141 milliseconds
+______________________________________________________
+
+
+Browser: Chrome
+
+String: 	$1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	820 milliseconds
+______________________________________________________
+
+String: 	$ 1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	656 milliseconds
+______________________________________________________
+
+String: 	1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	641 milliseconds
+______________________________________________________
+
+String: 	1654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	607 milliseconds
+______________________________________________________
+
+String: 	$1,654.56
+Annual Payment: 19854,72
+Result: 	WRONG [should be: 19854.60]
+Response time: 	638 milliseconds
+______________________________________________________
+
+
+Browser: Firefox
+
+String: 	$1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	535 milliseconds
+______________________________________________________
+
+String: 	$ 1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	532 milliseconds
+______________________________________________________
+
+String: 	1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	469 milliseconds
+______________________________________________________
+
+String: 	1654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	437 milliseconds
+______________________________________________________
+
+String: 	$1,654.56
+Annual Payment: 19854,72
+Result: 	WRONG [should be: 19854.60]
+Response time: 	453 milliseconds
+______________________________________________________
+
+
+Browser: HtmlUnit
+
+
+String: 	$1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	344 milliseconds
+______________________________________________________
+
+String: 	$ 1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	62 milliseconds
+______________________________________________________
+
+String: 	1,654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	62 milliseconds
+______________________________________________________
+
+String: 	1654.55
+Annual Payment: 19854,60
+Result: 	CORRECT
+Response time: 	31 milliseconds
+______________________________________________________
+
+String: 	$1,654.56
+Annual Payment: 19854,72
+Result: 	WRONG [should be: 19854.60]
+Response time: 	32 milliseconds
+______________________________________________________
